@@ -6,7 +6,7 @@ const SECRET_API_KEY = "h4rdc0d3d_SUPER_SECRET";
 
 const server = http.createServer((req, res) => {
   if (req.url === "/") {
-    res.end("Hello - Secrets exam");
+    res.end("Hello - Welcome to Node Secret Code.");
     return;
   }
   if (req.url === "/show-secret") {
